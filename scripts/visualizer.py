@@ -4,8 +4,8 @@ import seaborn as sns
 
 
 def plot_count(df:pd.DataFrame, column:str) -> None:
-    plt.figure(figsize=(8, 4))
-    sns.countplot(data=df, x=column)
+    plt.figure(figsize=(9, 5))
+    sns.countplot(data=df, x=column, facecolor=(0, 0, 0, 0), linewidth=5,  edgecolor=sns.color_palette("pastel", 3))
     plt.title(f'Distribution of {column}', size=20, fontweight='bold')
     plt.xlabel(f'{column}', fontsize=17)
     plt.ylabel("Count", fontsize=17)

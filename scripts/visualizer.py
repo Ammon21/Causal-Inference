@@ -74,3 +74,14 @@ def plot_scatter(df: pd.DataFrame, x_col: str, y_col: str, title: str, hue: str,
     plt.xticks(fontsize=14)
     plt.yticks(fontsize=14)
     plt.show()
+
+def bivariate_plot(df,features, fields):
+    fig, axs = plt.subplots(10,3, figsize=(20,45))
+    for col in range(len(features)):  
+        for f in range(len(fields)):  
+            sns.histplot(df, 
+                        x=features[col]+"_"+fields[f], 
+                        hue="diagnosis", element="bars", 
+                        stat="count", 
+                        palette=["gold", "purple"],
+                        ax=axs[col][f])

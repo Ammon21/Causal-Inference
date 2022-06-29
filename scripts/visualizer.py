@@ -33,7 +33,7 @@ def plot_countn(df: pd.DataFrame, column: str) -> None:
 
 def plot_bar(df: pd.DataFrame, x_col: str, y_col: str, title: str, xlabel: str, ylabel: str) -> None:
     plt.figure(figsize=(9, 7))
-    sns.barplot(data=df, x=x_col, y=y_col)
+    sns.barplot(data=df, x=x_col, y=y_col, palette= "Blues")
     plt.title(title, size=20)
     plt.xticks(rotation=75, fontsize=14)
     plt.yticks(fontsize=14)

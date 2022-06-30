@@ -18,7 +18,7 @@ jobs:
           echo "# Univariate analysis" >> report.md
 
           # Post reports as comments in GitHub PRs
-          echo "## I >> report.md
+          echo "## I ">> report.md
           cml publish plots/univariate_9.JPG --md >> report.md
 
           echo "## II" >> report.md

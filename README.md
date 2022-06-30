@@ -1,6 +1,6 @@
 # Breast Cancer Diagnosis by Causal_inference
 
-![lidar-heatmap](https://www.inovex.de/wp-content/uploads/2020/03/bc.jpg)
+![lidar-heatmap](bc.jpg)
 
 **Table of content**
 

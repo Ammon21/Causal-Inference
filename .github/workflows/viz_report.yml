@@ -18,26 +18,26 @@ jobs:
           echo "# Univariate analysis" >> report.md
 
           # Post reports as comments in GitHub PRs
-          echo "## Sales across state holidays" >> report.md
+          echo "## I >> report.md
           cml publish plots/univariate_9.JPG --md >> report.md
 
-          echo "## Sales and customers across store types" >> report.md
-          cml publish univariate_1.JPG --md >> report.md
+          echo "## II" >> report.md
+          cml publish plots/univariate_1.JPG --md >> report.md
 
-          echo "## Sales and customers across promotion interval" >> report.md
-          cml publish univariate_2.JPG >> report.md
+          echo "## III" >> report.md
+          cml publish plots/univariate_2.JPG >> report.md
 
-          echo "## Sales across competition distance" >> report.md
-          cml publish univariate_3.JPG --md >> report.md
+          echo "## IV" >> report.md
+          cml publish plots/univariate_3.JPG --md >> report.md
 
-          echo "## Top seven features and sales corelation" >> report.md
-          cml publish univariate_4.JPG --md >> report.md
+          echo "## V" >> report.md
+          cml publish plots/univariate_4.JPG --md >> report.md
 
-          echo "## Sales across store type, promotion and month" >> report.md
-          cml publish univariate_6.JPG --md >> report.md
+          echo "## VI " >> report.md
+          cml publish plots/univariate_6.JPG --md >> report.md
 
-          echo "## Sales across assortment, promotion and month" >> report.md
-          cml publish univariate_8.JPG --md >> report.md
+          echo "## VII " >> report.md
+          cml publish plots/univariate_8.JPG --md >> report.md
 
           cml send-comment report.md
 

@@ -16,7 +16,7 @@
 ## Introduction
 
 > Breast-cancer Diagnostic The second greatest cause of cancer death in women, after lung cancer, is breast cancer, which is the most prevalent invasive cancer in females. Since 1989, significant progress has been made in the detection and treatment of breast cancer. More than 3.1 million Americans have survived breast cancer, according to the American Cancer Society (ACS). About 1 in 38 women will develop breast cancer in their lifetime (2.6 percent ).
-The purpose of this project is to extract useful features by using causal inferences and building the model to predict the diagnosis.
+
 
 <hr>
 

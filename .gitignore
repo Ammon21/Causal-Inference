@@ -1,1 +1,6 @@
 __pycache__
+dashboard/build/
+dashboard/node_modules/
+dashboard/package.json
+dashboard/package-lock.json
+dashboard/README.md

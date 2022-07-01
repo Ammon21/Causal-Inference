@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.ac5d5108.css",
-    "main.js": "/static/js/main.2f0b5f00.js",
-    "static/js/787.545aecf5.chunk.js": "/static/js/787.545aecf5.chunk.js",
-    "static/media/5.png": "/static/media/5.57b39113ac87d4d00cca.png",
-    "static/media/9.png": "/static/media/9.8b1852b426ac1559abd9.png",
-    "static/media/4.png": "/static/media/4.87ef357b0362309c7986.png",
-    "static/media/6.png": "/static/media/6.06bbe54d7df8d7529123.png",
-    "static/media/3.png": "/static/media/3.8520902f2612a20535ad.png",
-    "static/media/2.png": "/static/media/2.e169309ef5d2da516cdd.png",
-    "static/media/7.png": "/static/media/7.8b1a556d2303aa17dd80.png",
-    "static/media/bc.png": "/static/media/bc.f2a7d271be88b1a47ae1.png",
-    "static/media/8.png": "/static/media/8.6d13c6b1bb14726a1a4c.png",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.ac5d5108.css.map": "/static/css/main.ac5d5108.css.map",
-    "main.2f0b5f00.js.map": "/static/js/main.2f0b5f00.js.map",
-    "787.545aecf5.chunk.js.map": "/static/js/787.545aecf5.chunk.js.map"
+    "main.css": "/Causal-Inference/static/css/main.ac5d5108.css",
+    "main.js": "/Causal-Inference/static/js/main.b3c19b40.js",
+    "static/js/787.545aecf5.chunk.js": "/Causal-Inference/static/js/787.545aecf5.chunk.js",
+    "static/media/5.png": "/Causal-Inference/static/media/5.57b39113ac87d4d00cca.png",
+    "static/media/9.png": "/Causal-Inference/static/media/9.8b1852b426ac1559abd9.png",
+    "static/media/4.png": "/Causal-Inference/static/media/4.87ef357b0362309c7986.png",
+    "static/media/6.png": "/Causal-Inference/static/media/6.06bbe54d7df8d7529123.png",
+    "static/media/3.png": "/Causal-Inference/static/media/3.8520902f2612a20535ad.png",
+    "static/media/2.png": "/Causal-Inference/static/media/2.e169309ef5d2da516cdd.png",
+    "static/media/7.png": "/Causal-Inference/static/media/7.8b1a556d2303aa17dd80.png",
+    "static/media/bc.png": "/Causal-Inference/static/media/bc.f2a7d271be88b1a47ae1.png",
+    "static/media/8.png": "/Causal-Inference/static/media/8.6d13c6b1bb14726a1a4c.png",
+    "static/media/logo.svg": "/Causal-Inference/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Causal-Inference/index.html",
+    "main.ac5d5108.css.map": "/Causal-Inference/static/css/main.ac5d5108.css.map",
+    "main.b3c19b40.js.map": "/Causal-Inference/static/js/main.b3c19b40.js.map",
+    "787.545aecf5.chunk.js.map": "/Causal-Inference/static/js/787.545aecf5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac5d5108.css",
-    "static/js/main.2f0b5f00.js"
+    "static/js/main.b3c19b40.js"
   ]
 }

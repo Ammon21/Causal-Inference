@@ -7,7 +7,7 @@
   border-radius: 15%;
   box-shadow: 3px 8px;
   background-color:#e5e5e5;
-  width:150px;
+  width:170px;
   height: 100px;
   padding-top: 25px;
   text-align: center;
@@ -61,7 +61,7 @@ h1 {
 img {
   height: 200px;
   width: 250px;
-  margin-left: 75px;
+  margin-left: 65px;
 }
 
 img:hover {

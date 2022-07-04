@@ -284,29 +284,4 @@ class CausalGraphicalModel:
 
         return valid_adjustment_sets
 
-    def is_valid_frontdoor_adjustment_set(self, x, y, z):
-        """
-        Test whether z is a valid frontdoor adjustment set for
-        estimating the causal impact of x on y via the frontdoor
-        adjustment formula:
-        P(y|do(x)) = \sum_{z}P(z|x)\sum_{x'}P(y|x',z)P(x')
-        Arguments
-        ---------
-        x: str
-            Intervention Variable
-        y: str
-            Target Variable
-        z: set
-            Adjustment variables
-        Returns
-        -------
-        is_valid_adjustment_set: bool
-        """
-        z = _variable_or_iterable_to_set(z)
-
-        # 1. does z block all directed paths from x to y?
-        unblocked_directed_paths = [
-            path for path in
-            nx.all_simple_paths(self.dag, x, y)
-            if not any(zz in path for zz in z)
-        ]
+    
